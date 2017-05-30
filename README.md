@@ -1,1 +1,2 @@
 # onhover_accordion
+this is a project i did it allows you to hover and a accordion effect happons the top moves up 20px and the text scrolls up about 100px you can set the speed of the scroll to move slower or faster in the css I wrote it a one file so it would be easy to play with and addjust the effects it all done in the css3 relm so it's all very easy to adjust and to build your own efect I used bootsrap for the mobile end and youll need to place the content in a contaner so your page doesn't get that bounce 
