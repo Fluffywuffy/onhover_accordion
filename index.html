@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+you can get a clean version at https://github.com/Fluffywuffy this is my github section it will be listed as a hover-work
+and my linkedin https://www.linkedin.com/in/tim-welch-676a56100/
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+  .elem {
+      
+	position: relative;
+	bottom: 0;
+	-webkit-transition: bottom 0.5s ease;
+	-moz-transition: bottom 0.5s ease;
+	-o-transition: bottom 0.5s ease;
+	transition: bottom 0.5s ease;
+       height: 200px;
+}
+.elem:hover {
+	bottom: 28px;
+      
+}
+
+
+
+
+.rocket {
+    height: 0;
+    top: 220px; /** this sets the start point from were the text move up **/
+    overflow: hidden;
+    transition: height 0.1s; /** sets the speed to how fast the background changes **/
+  
+}
+
+.axis:hover .move-up {
+     height: 9em; /** this sets the height of the text move-up and down space **/
+    transform: translate(0,-110px); /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+    -webkit-transform: translate(0,-110px);
+    -o-transform: translate(0,-110px); 
+    -moz-transform: translate(0,-110px);
+  
+}
+
+.object {
+    
+    position: absolute;
+    transition: all 0.5s ease-in-out; /** this is how fast the text move up **/
+    -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 0.5s ease-in-out; /** Firefox **/
+    -o-transition: all 0.5s ease-in-out; /** Opera **/
+}
+
+.home { color: gold; /** this changes the image color **/
+        left: 35% /** this aligns the image in the center **/
+      }
+
+.gi-3x{ 
+        font-size: 2em; /** this is to change the size of the image  **/
+        position: relative;
+        left: 45%;
+        }
+
+.block { top: 100px; position: relative;}
+
+.line { 
+       border: 2px solid gray;
+       width: 100px;
+       height: 2px;
+       position: absolute; 
+       left: 30%;
+}
+
+ 
+
+.elem:hover { 
+    background-color: #e5e5e5; 
+    height: 300px;
+}
+
+.text_center { 
+    position: relative; 
+    text-align: center;
+}
+
+        </style>
+            <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+      
+   
+        <div class="block"    >
+ <div class="container"><!-- this allows you to change the back ground color --> 
+      <div class="r_w1 row ">
+           <div class="col-lg-3">
+              <div class="elem">
+      <section  class="axis">
+                  
+                        
+          <span class="glyphicon glyphicon-home gi-3x home"></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image
+                  the home in this class sets the color and were it lands --> 
+          <a href="main.html"><p class="text_center">Forced Placed, Flood & REO</p>
+                  <span class="line"></span></a>
+                  <p class="object rocket move-up"><i>Force Placed Hazard/Flood Protection provides hazard and/or flood coverage for lenders when a borrower lacks adequate insurance on a mortgaged property.</i></p>   
+      </section>               
+              </div> 
+           </div>
+          
+              <div class="col-sm-3">
+              <div class="elem">
+      <section  class="axis">
+                  
+                        
+                  <span class="glyphicon glyphicon-fire gi-3x home"></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image
+                  the home in this class sets the color and were it lands --> 
+                <a href="main.html">  <p class="text_center">Blanket Mortgage</p>
+                  <span class="line"></span></a>
+                   <p class="object rocket move-up"><i>Force Placed Hazard/Flood Protection provides hazard and/or flood coverage for lenders when a borrower lacks adequate insurance on a mortgaged property.</i></p>      
+      </section>               
+              </div> 
+           </div>
+          
+              <div class="col-sm-3">
+              <div class="elem">
+      <section  class="axis">
+                  
+                        
+                  <span class="glyphicon glyphicon-alert gi-3x home"></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image
+                  the home in this class sets the color and were it lands --> 
+                  <a href="main.html"><p class="text_center">Mortgage Impairment</p>
+                   <span class="line"></span></a>
+                    <p class="object rocket move-up"><i>Force Placed Hazard/Flood Protection provides hazard and/or flood coverage for lenders when a borrower lacks adequate insurance on a mortgaged property.</i></p>   
+      </section>               
+              </div> 
+           </div>
+          
+              <div class="col-sm-3">
+              <div class="elem">
+      <section  class="axis">
+                  
+                        
+                  <span class="glyphicon glyphicon-globe gi-3x home"></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image
+                  the home in this class sets the color and were it lands --> 
+                  <a href="main.html"><p class="text_center">Loan Fulfillment Solutions</p>
+                  <span class="line"></span></a>
+                    <p class="object rocket move-up"><i>Force Placed Hazard/Flood Protection provides hazard and/or flood coverage for lenders when a borrower lacks adequate insurance on a mortgaged property.</i></p>      
+      </section>               
+              </div> 
+           </div><br />
+      </div>
+       </div> 
+        </div> 
+ 
+   <!-- this allows you to change the back ground color --> 
+
+    </body>
+</html>
